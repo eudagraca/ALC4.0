@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "62782963800",
+    "firebase_url": "https://alc40phase2-97372.firebaseio.com",
+    "project_id": "alc40phase2-97372",
+    "storage_bucket": "alc40phase2-97372.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62782963800:android:96239b5c25c7f57d",
+        "android_client_info": {
+          "package_name": "mz.co.alc40phase2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62782963800-oh03flh9m3mafvou7h0ftivdcna2rsh3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mz.co.alc40phase2",
+            "certificate_hash": "4a713bab70935619ec676b61a31daa764bdcd80a"
+          }
+        },
+        {
+          "client_id": "62782963800-55ar67vqo37fsurltsjdg2tds0uekpkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt0qAxXEh4_U_Z_NEhKVK92ErU9IDWsP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62782963800-55ar67vqo37fsurltsjdg2tds0uekpkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

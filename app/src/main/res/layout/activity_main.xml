@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+                tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            app:titleTextColor="#fff"
+            app:title="Travelmatics"
+            android:layout_height="56dp">
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <com.google.android.gms.common.SignInButton
+            android:id="@+id/signIn_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="false"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:layout_marginBottom="20dp"/>
+
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/sign_in_gmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/ic_email_black_24dp"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_above="@+id/signIn_email"
+            android:text="Sign in with email"
+            android:drawablePadding="10dp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="#FF3D3D"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:padding="15dp"
+            android:layout_marginBottom="20sp"/>
+</RelativeLayout>
